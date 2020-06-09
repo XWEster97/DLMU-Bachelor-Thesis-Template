@@ -5,6 +5,7 @@
 % with no Invariant Sections, no FrontCover Texts, and no BackCover Texts.
 % A copy of the license is included in the section entitled "GNU
 % Free Documentation License".
+%%%%%%%%%%%%%%%%重要的事情现在前面,第一次编译点左上角选 Compiler(编译器)为XeLaTeX%%%%%%%%%%%%
 \documentclass[zihao=-4,a4paper]{ctexart}
 
 % 论文基本配置，加载宏包、数学命令等全局配置
@@ -60,7 +61,7 @@ KW1,KW2}     }
 	\renewcommand\contentsname{\centerline{\zihao{3}    目\hspace*{2em}录}}
 
 	\tableofcontents
-
+% 
 	
 	\newpage
 	
@@ -68,7 +69,7 @@ KW1,KW2}     }
 	\thispagestyle{fancy}
 	\vspace*{-20pt}
 	\begin{center}
-	\zihao{3} \bfseries  模板题目
+	\zihao{3} \bfseries  论文题目
 	\vspace*{20pt}
 	\end{center}
 	
@@ -78,9 +79,9 @@ KW1,KW2}     }
 \input{text/ch1} \sectionend
 \input{text/ch2} \sectionend
 % \input{text/ch3} \sectionend
+\input{text/ch3} \sectionend
 \input{text/ch4} \sectionend
 \input{text/ch5} \sectionend
-\input{text/ch6} \sectionend
 
 
 	
@@ -127,10 +128,5 @@ KW1,KW2}     }
 \begin{figure}[htbp!]
  \includegraphics[height=0.9\textheight]{code/dependency.png}
  \end{figure}	    
- \begin{figure}[htbp!]
- \includegraphics[height=1\textheight]{code/MRLSBCG.png}
- \end{figure}
- \begin{figure}[htbp!]
- \includegraphics[height=1\textheight]{code/DiagonalCG.png}
- \end{figure}
+
 \end {document}
