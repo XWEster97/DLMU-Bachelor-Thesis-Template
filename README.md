@@ -10,7 +10,7 @@ Dailian Maritime University Bachelor Thesis Template Created by ZTY &amp; LYF
 Recommend editing and compiling on Overleaf which is an online, real time collaborative editor for papers, theses, technical reports and other documents written in the LaTeX markup language.
 
 ## Detail
-**Detailed Attentions are prersented in CH1 and CH4. Please read carefully before composing.**
+**Detailed Attentions are presented in CH1 and CH4. Please read carefully before composing.**
 
 
  
