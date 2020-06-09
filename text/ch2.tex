@@ -1,0 +1,91 @@
+% Copyright (C) 2018 Liu Yifan， Zhibo Xiao and Vital Delmas Mabonzo
+% Copyright (C) 2018 Liu Yifan, Zhao Tianyu 
+% Permission is granted to copy, distribute and/or modify this document
+% under the terms of the GNU Free Documentation License, Version 1.3
+% or any later version published by the Free Software Foundation;
+% with no Invariant Sections, no FrontCover Texts, and no BackCover Texts.
+% A copy of the license is included in the section entitled "GNU
+% Free Documentation License".
+
+\section{模板的安装使用}\label{ch:install}
+
+\textbf{使用平台编译请看视频教程,e.g.,\href{https://youtu.be/P5EWoPOnZTU}{教程}}.
+
+下面的文字教程适用于本地编译
+
+原本内容已经被注释掉,想看请到源码ch2.tex中看,选中下面文字部分  ctrl+/  解除注释 再编译
+
+% \subsection{安装 \TeX 系统}
+% \subsubsection{Windows}
+% 考虑到Windows系统用户大多数使用CTex（基于MiKTeX），这里只说明CTex的安装方法。
+% \begin{enumerate}
+% \item 下载CTex v2.9完整版，\url{http://www.ctex.org/CTeXDownload};
+% \item 按照第\ref{sect:compile}节的方法编译你的论文即可。
+% \end{enumerate}
+
+% \subsubsection{Mac OSX}
+
+% 完整安装MacTeX套装即可。
+
+% \subsubsection{Linux}
+
+% 完整安装TeXLive最新版即可。
+
+
+
+
+% \subsection{编译你的论文}\label{sect:compile}
+
+% 论文的中英文封面和原创性声明需要使用Word编辑，并且在每页之后添加一个空白页(Ctrl+Enter)，然后将前六页保存成pdf文件——cover.pdf。
+
+% 之后在body文件夹用文本编辑器打开各个源文件进行编辑。
+
+% \subsubsection{文本编辑器}
+
+% 不要使用CTex套装中预制了WinEdt编辑器，否则后果自负。
+% 由于WinEdt使用GBK编码。插入参考文献时需要配合另外的软件
+% 使用，大多数软件默认的编码都是UTF8，所以不推荐WinEdt，我们推荐使用
+% TexStudio、Vim+LaTexSuite等支持UTF8编码的专用LaTeX编辑器进行编辑。
+% 也可以使用Sublime Text 2、Notepad++等其他纯文本编辑器。
+
+% 文本编辑器推荐列表(依照推荐顺序排序)：
+
+% \begin{itemize}
+% \item IDE组
+% \begin{enumerate}
+% 	\item TeXstudio
+% 	\item Texmaker
+% 	\item TeXnicCenter
+% \end{enumerate}
+% \item{纯文本编辑器组}
+% \begin{enumerate}
+% \item Vim+LaTeXSuite (神器)
+% \item Sublime Text 2
+% \end{enumerate}
+% \end{itemize}
+
+
+% \subsubsection{快捷编译}
+
+% 如果确保使用的\LaTeX 命令没有错误，可以使用模板附带的批处理命令进行编译。
+% \subsubsection{Windows下编译}
+
+% 双击 \texttt{run.bat}文件进行编辑。
+
+% \subsubsection{Mac OSX和Linux下编译}
+
+% 在你最喜欢的bash下面运行\texttt{make} 编译。
+% 或者运行\texttt{sh run.sh}编译。
+
+% \subsubsection{使用命令行编译}
+
+% 这种方式在所有系统下都可以进行。打开命令行工具，进入模板所在文件夹，按照下面顺序依次输入：
+% \begin{verbatim}
+% xelatex dmuthesis
+% bibtex dmuthesis
+% xelatex dmuthesis
+% xelatex dmuthesis
+% \end{verbatim}
+% 为了生成参考文献和书签以及交叉引用，所有的\LaTeX 文件都需要编译4次，\XeLaTeX 
+% 文件也不例外。
+

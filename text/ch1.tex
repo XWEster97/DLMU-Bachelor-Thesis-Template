@@ -1,0 +1,66 @@
+% Copyright (C) 2018 Liu Yifan, Zhao Tianyu 
+% Permission is granted to copy, distribute and/or modify this document
+% under the terms of the GNU Free Documentation License, Version 1.3
+% or any later version published by the Free Software Foundation;
+% with no Invariant Sections, no FrontCover Texts, and no BackCover Texts.
+% A copy of the license is included in the section entitled "GNU
+% Free Documentation License".
+
+\section{为什么要做这个模板}\label{ch:intr}
+
+
+因为使用Microsoft 
+Word写学术论文是一件非常自我摧残的事情，要花费大量的时间去学习Word排版，
+弄不好还要花费别人大量的时间帮忙排自己的论文，还要搭上人情，请人家吃饭什么的，
+在别人心中留下一个小小的印记：“切，连排个版都不会！”
+
+关键是用Word写学术论文本来就是一件十分不靠谱的事情，而且完全有更简单，更专业的解决方法 —— {\LaTeX} ！
+
+既然你下载了这个模板，而且有看文档的好习惯，那么恭喜你吞下了那颗红色小药丸！
+
+Welcome to the real world!
+
+其实下面的内容你都没有必要看的，就是例行的啰嗦啰嗦，你可以直接跳到
+第\ref{ch:install}章。（看到了吧，pdf文档里面可以有超链接，你Word弄个超链接
+出来费劲死了。）
+
+\subsection{模板说明}
+\label{sec:fastguide}
+
+\subsubsection{模板特性}
+\label{sec:features}
+
+这个模板是大连海事大学数学系本科生毕业论文\LaTeX{}模版，中文解决方案是\XeLaTeX和CTex。
+
+此版本由数学系应数2014级Zhao Tianyu和LiuYifan的论文模板改进完成。
+
+由2016级Esther适配Overleaf。
+
+\textbf{年代久远,请留意后续学校论文格式变动}
+
+
+\textbf{重要的事情现在前面,第一次编译点左上角选 Compiler 为 \XeLaTeX}
+配置在Dmusetup.tex中 
+
+建议完整看完本教程,没时间也要看第四章, 下面是一部分重点和建议
+\begin{enumerate}
+    \item 配置在Dmusetup.tex中 
+    \item /fig /photo /text 等文件夹即字面意思
+    \item 知网查重提交pdf 会乱码 可转成word再进行查重, Linux 下转换word命令行为: 
+    \begin{lstlisting}
+pandoc ./main.tex --bibliography refs.bib  -o output.doc
+#带reference 不推荐
+pandoc ./main.tex   -o output.doc 
+#推荐不带reference 并需要根据报错删除致谢一类的章节
+  \end{lstlisting}
+  \item 各位置的题目 设定没有同步,须设定多处,e.g., 页眉
+  \item 有不懂的问题,先看overleaf的document\href{https://www.overleaf.com/learn}{"点此"},和stackoverflow自行搜索. 若还有问题到本项目主页"点击此处"开issues反馈.
+  \item 引用分清楚\cite{hart_initializing_2012}和\upcite{hart_initializing_2012} 的区别
+\end{enumerate}
+
+ 
+
+
+
+
+

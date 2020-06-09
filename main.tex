@@ -1,0 +1,136 @@
+% Copyright (C) 2018 Liu Yifan, Zhao Tianyu 
+% Permission is granted to copy, distribute and/or modify this document
+% under the terms of the GNU Free Documentation License, Version 1.3
+% or any later version published by the Free Software Foundation;
+% with no Invariant Sections, no FrontCover Texts, and no BackCover Texts.
+% A copy of the license is included in the section entitled "GNU
+% Free Documentation License".
+\documentclass[zihao=-4,a4paper]{ctexart}
+
+% 论文基本配置，加载宏包、数学命令等全局配置
+\input{dmusetup.tex}
+\begin{document}
+        %  \begin{center}
+        %   求解多右端线性方程组的一种改进共轭梯度算法研究\\
+        %   %{\bfseries \zihao{2} ！如果不多加这一行字复制进Word会乱码，导致不能查重！}
+        %  \end{center}
+
+	\includepdfmerge{cover.pdf,1-2}
+	
+	\thispagestyle{plain}
+	\pagenumbering{Roman}
+	\linespread{1.35}
+	\begin{abstract}
+	\zihao{-4}{
+	目前在众多学科领域都需要求解多右端项线性方程组，本文
+	..
+	
+	..
+	
+	..
+	到校正矩阵Frobenius范数的最小值。最后通过Julia程序对其进行对比数值试验。
+	\\
+	\\
+	{\bfseries  关键词: 关键词1,关键词2} }
+	\end{abstract}
+
+
+	
+
+	
+	\newpage
+	\thispagestyle{plain}
+	\renewcommand\abstractname{ABSTRACT}
+	
+	\begin{abstract}
+	\zihao{-4}{
+	At present, it is necessary to solve multi-right-end linear equations in many disciplines. This paper 
+	..
+	
+	..
+	algorithms can converge to the minimum of the Frobenius norm value.
+	\\
+	\\
+	{\bf Keywords: 
+KW1,KW2}     }
+	\end{abstract}
+	
+	\newpage
+	\thispagestyle{plain}
+	\renewcommand\contentsname{\centerline{\zihao{3}    目\hspace*{2em}录}}
+
+	\tableofcontents
+
+	
+	\newpage
+	
+	%\maketitle
+	\thispagestyle{fancy}
+	\vspace*{-20pt}
+	\begin{center}
+	\zihao{3} \bfseries  模板题目
+	\vspace*{20pt}
+	\end{center}
+	
+	\pagenumbering{arabic}
+	
+% \mainmatter
+\input{text/ch1} \sectionend
+\input{text/ch2} \sectionend
+% \input{text/ch3} \sectionend
+\input{text/ch4} \sectionend
+\input{text/ch5} \sectionend
+\input{text/ch6} \sectionend
+
+
+	
+	\vspace*{0pt}
+	\section*{结论}	
+	
+	
+	\addcontentsline{toc}{section}{结论}
+	本文从最优化理论出发
+    \begin{enumerate}
+    \item 针对基于Krylov子空间的迭代算法——共轭梯度算法，
+    \item 在阐述清楚共轭
+    \item 最后讨论针...进而给出两者的等价性证明。
+    \end{enumerate}
+
+	
+	
+	
+	\sectionend
+	\addcontentsline{toc}{section}{参\ 考\ 文\ 献}
+	\begin{small}	
+		\setlength{\bibsep}{0ex}
+		\vspace*{0pt}
+		\bibliographystyle{dmubib}
+		\bibliography{refs}
+	\end{small}
+		
+	
+
+	\sectionend	
+	
+	\vspace*{0pt}
+	\section*{\centerline{致\hspace*{3em}谢}}
+	\addcontentsline{toc}{section}{致\hspace*{1em}谢}
+	%\zihao{-4}{
+	四年的大学时光流逝的飞快，非常荣幸能够有机会在大学的最后时刻完成这篇致谢，向一直帮助我的师长、家人和朋友们表达我最衷心的感谢。回顾大学四年的学习与生活，我收获了许多，也成长了许多。
+	
+	\sectionend	
+	
+	\vspace*{0pt}
+	\section*{\centerline{附\hspace*{3em}录}}
+	\addcontentsline{toc}{section}{附\hspace*{1em}录}
+
+\begin{figure}[htbp!]
+ \includegraphics[height=0.9\textheight]{code/dependency.png}
+ \end{figure}	    
+ \begin{figure}[htbp!]
+ \includegraphics[height=1\textheight]{code/MRLSBCG.png}
+ \end{figure}
+ \begin{figure}[htbp!]
+ \includegraphics[height=1\textheight]{code/DiagonalCG.png}
+ \end{figure}
+\end {document}
